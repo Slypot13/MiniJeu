@@ -45,9 +45,6 @@ mini-jeu/
 ├── style.css # Styles, animations, mise en forme
 └── script.js # Logique du jeu (DOM, timer, score, interactions)
 
-yaml
-Copier le code
-
 ---
 
 ## ⚙️ Installation & Lancement
