@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini jeu JS - Tape la case</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Mini jeu : Tape la case !</h1>
+
+    <div class="game-info">
+      <p>Score : <span id="score">0</span></p>
+      <p>Temps restant : <span id="time">30</span>s</p>
+      <p>Meilleur score : <span id="bestScore">0</span></p>
+    </div>
+
+    <button id="startBtn">Lancer la partie</button>
+
+    <p class="game-rules">
+      Règles : Clique sur la <strong>case verte</strong> dès qu'elle apparaît.
+      Tu as <strong>30 secondes</strong>.  
+      Si tu fais <strong>15 points ou plus</strong>, tu gagnes la partie !
+    </p>
+
+    <div class="grid" id="grid">
+      <!-- 9 cases -->
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+
+    <p id="message" class="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
